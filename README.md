@@ -13,6 +13,6 @@ Download link: https://www.dropbox.com/scl/fi/i9yvfqpf7p8uye5o8k1sj/common_voice
 
 ## Step 1. Clone GitHub repository 
 ```
-git clone https://github.com/nigelmaxwee/myhtxrepo.git
-cd myhtxrepo
+git clone https://github.com/nigelmaxwee/my-htx-repo.git
+cd my-htx-repo
 ```
