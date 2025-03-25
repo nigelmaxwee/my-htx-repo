@@ -81,22 +81,22 @@ cd my-htx-repo
 ## Step 2. Ensure Python is version 3.11.11
 This is mainly for compatibility with packages <br>
 Download link: https://www.python.org/downloads/release/python-31111/
-'''
+```
 python --version
-'''
+```
 
 ## Step 3. Download Docker
 Download link: https://docs.docker.com/get-started/get-docker/
 
 ## Step 4. Create a virtual environment (Optional)
-'''
+```
 python -m venv venv
-'''
+```
 
 ## Step 5. Build docker image
-'''
+```
 docker build -t asr-api .
-'''
+```
 
 ## Finetuning Hardware
 IDE: Google Colab <br>
