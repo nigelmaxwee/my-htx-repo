@@ -8,7 +8,7 @@ To fine-tune an Automatic Speech Recognition (ASR) model using the Common Voice 
 
 ## Dataset
 </p>
-Download link: https://www.dropbox.com/scl/fi/i9yvfqpf7p8uye5o8k1sj/common_voice.zip?rlkey=lz3dtjuhekc3xw4jnoeoqy5yu&e=1&dl=0
+Download link: https://www.dropbox.com/scl/fi/i9yvfqpf7p8uye5o8k1sj/common_voice.zip?rlkey=lz3dtjuhekc3xw4jnoeoqy5yu&e=1&dl=0 <br>
 Please ensure that the datasets used (dev, train, test) are in the appropriate folders as seen in the directory tree
 </p>
 
@@ -79,7 +79,7 @@ cd my-htx-repo
 ```
 
 ## Step 2. Ensure Python is version 3.11.11
-This is mainly for compatibility with packages
+This is mainly for compatibility with packages <br>
 Download link: https://www.python.org/downloads/release/python-31111/
 '''
 python --version
@@ -99,6 +99,6 @@ docker build -t asr-api .
 '''
 
 ## Finetuning Hardware
-IDE: Google Colab 
-GPU: NVIDIA T4 GPU
+IDE: Google Colab <br>
+GPU: NVIDIA T4 GPU <br>
 Total time for finetuning and inference: ~5 hours
