@@ -1,0 +1,12 @@
+torch>=1.13
+torchaudio
+transformers>=4.36
+datasets
+librosa
+soundfile
+jiwer
+numpy
+pandas
+matplotlib
+scikit-learn
+safetensors
