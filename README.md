@@ -103,6 +103,22 @@ docker build -t asr-api .
 | **WER** | 0.108 | 0.0454 |
 | **CER** | 0.0906 | 0.0372 |
 
+## Finetuning Performance
+### WER & CER over Epochs
+
+| Epoch | WER       | CER       |
+|-------|-----------|-----------|
+| 0     | 0.1051    | 0.0452    |
+| 1     | 0.1029    | 0.0427    |
+| 2     | 0.0906    | 0.0386    |
+| 3     | 0.0904    | 0.0382    |
+
+![Training vs Validation Loss](asr-train/wer_cer_plot.png)
+
+Both training loss and validation loss are decreasing with increasing epochs, which typically indicates that the model is learning relevant patterns in the data and generalizing well — at least up to 3 epochs. <br>
+The absence of a divergence between training and validation loss further indicates that overfitting has not yet occurred, and additional training may still yield performance gains. <br>
+![Training vs Validation Loss](asr-train/train_val_loss_plot.png)
+
 ## Finetuning Hardware
 IDE: Google Colab <br>
 GPU: NVIDIA T4 GPU <br>
