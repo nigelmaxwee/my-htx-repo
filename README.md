@@ -12,7 +12,7 @@ Download link: https://www.dropbox.com/scl/fi/i9yvfqpf7p8uye5o8k1sj/common_voice
 Please ensure that the datasets used (dev, train, test) are in the appropriate folders as seen in the directory tree
 </p>
 
-## Directory tree
+## Directory Tree
 
 ``` 
 .
