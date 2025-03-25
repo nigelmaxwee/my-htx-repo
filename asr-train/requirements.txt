@@ -1,1 +1,11 @@
-
+transformers
+torch
+torchaudio
+accelerate
+datasets
+librosa
+soundfile
+numpy
+pandas
+jiwer
+optuna
