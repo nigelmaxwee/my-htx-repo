@@ -97,6 +97,11 @@ python -m venv venv
 ```
 docker build -t asr-api .
 ```
+## Model Performance
+| Metric | Baseline (Pretrained) | Finetuned Model |
+|--------|------------------------|-----------------|
+| **WER** | 0.108 | 0.0454 |
+| **CER** | 0.0906 | 0.0372 |
 
 ## Finetuning Hardware
 IDE: Google Colab <br>
