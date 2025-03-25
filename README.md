@@ -118,6 +118,7 @@ docker build -t asr-api .
 Both training loss and validation loss are decreasing with increasing epochs, which typically indicates that the model is learning relevant patterns in the data and generalizing well — at least up to 3 epochs. <br>
 <p align="justify">
 The absence of a divergence between training and validation loss further indicates that overfitting has not yet occurred, and additional training may still yield performance gains. <br>
+
 ![Training vs Validation Loss](asr-train/train_val_loss_plot.png)
 
 ## Finetuning Hardware
